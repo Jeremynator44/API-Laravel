@@ -36,7 +36,7 @@ class Commande extends Model
 		'id_client' => 'int',
 		'id_produit' => 'int',
 		'quantite' => 'int',
-		'date' => 'datetime'
+		'date' => 'datetime' 
 	];
 
 	protected $fillable = [

@@ -15,7 +15,7 @@ class CommandeFactory extends Factory
      * @return array<string, mixed>
      */
     public function definition(){
-        return [
+        return [ 
             'id_client' => fake()->numberBetween($min = 1, $max = 1600),
             'id_produit' => fake()->numberBetween($min = 1, $max = 1500),
             'quantite' => $this->faker->numberBetween($min = 1, $max = 50),

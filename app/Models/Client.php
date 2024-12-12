@@ -26,7 +26,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  *
  * @package App\Models
  */
-class Client extends Model
+class Client extends Model 
 {
 	use HasApiTokens, HasFactory, Notifiable;
 	protected $table = 'clients';
